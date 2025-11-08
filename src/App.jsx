@@ -91,13 +91,11 @@ export default function App() {
 
       {/* ROTAS */}
       <Routes>
-        <Route path="/" element={<HomeSection />} />
-        <Route path="/consorcios" element={<Consorcios />} />
-        <Route
-          path="/consorcio/como-funciona"
-          element={<ConsorcioComoFunciona />}
-        />
-      </Routes>
+  <Route path="/" element={<HomeSection />} />
+  <Route path="/consorcios" element={<Consorcios />} />
+  <Route path="/consorcio/como-funciona" element={<ConsorcioComoFunciona />} />
+</Routes>
+
     </div>
   );
 }
